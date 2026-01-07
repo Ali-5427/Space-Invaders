@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "postinstall": "chmod +x node_modules/.bin/vite 2>/dev/null || true",
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
