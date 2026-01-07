@@ -2,7 +2,7 @@
 
 A modern Space Invaders game built with React, TypeScript, and Vite. Defend Earth from alien invasions in this classic arcade-style shooter!
 
-![Space Invaders](https://via.placeholder.com/800x400/0f172a/38bdf8?text=Space+Invaders+Game)
+![Space Invaders](https://img.shields.io/badge/Space-Invaders-38bdf8?style=for-the-badge&logo=gamepad)
 
 ## 🎮 Features
 
